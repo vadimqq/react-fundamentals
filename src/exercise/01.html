@@ -26,5 +26,12 @@
 </head>
 <body>
   <div id="root"></div>
+  <script type="module">
+    const app = document.getElementById('#root')
+    const content = document.createElement('div')
+    content.classList = "container"
+    content.innerText = "Hello World"
+    app.appendChild(content)
+  </script>
 </body>
 </html>
